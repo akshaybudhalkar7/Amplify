@@ -47,7 +47,7 @@ jobs:
 
       - name: Install Python dependencies and CDK
         run: |
-            pip install -r requirements.txt --target='./amplify_workshop'
+            pip install -r requirements-dev.txt --target='./amplify_workshop'
 
       - name: Install AWS CDK
         run: 'sudo npm install -g aws-cdk@v2.40.0'
