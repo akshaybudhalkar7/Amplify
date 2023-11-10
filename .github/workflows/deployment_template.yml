@@ -52,10 +52,10 @@ jobs:
       - name: Install AWS CDK
         run: 'sudo npm install -g aws-cdk@v2.40.0'
 
-      - name: CDK synth
-        run: cdk synth
-        working-directory: ./amplify_workshop
-
-      - name: CDK deploy
-        run: cdk deploy --require-approval never --verbose
-        working-directory: ./amplify_workshop
+#      - name: CDK synth
+#        run: cdk synth
+#        working-directory: ./amplify_workshop
+#
+#      - name: CDK deploy
+#        run: cdk deploy --require-approval never --verbose
+#        working-directory: ./amplify_workshop
